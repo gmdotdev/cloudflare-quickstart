@@ -1,0 +1,12 @@
+{
+  "exclude": ["dist", "node_modules"],
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "types": ["@cloudflare/workers-types"]
+  }
+}

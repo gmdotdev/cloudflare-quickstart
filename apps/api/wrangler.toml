@@ -1,0 +1,6 @@
+name = "cloudflare-hono-quickstart"
+compatibility_date = "2024-04-29"
+compatibility_flags = ["nodejs_compat"]
+
+# How to setup a custom domain
+# routes = [{ pattern = "api.example.com", custom_domain = true }]

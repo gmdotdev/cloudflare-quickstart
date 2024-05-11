@@ -1,0 +1,10 @@
+{
+  "name": "@packages/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

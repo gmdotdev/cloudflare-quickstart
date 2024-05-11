@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@packages/core/*": ["./src/*"]
+    },
+    "strict": true,
+    "target": "ESNext",
+    "types": ["@cloudflare/workers-types", "node/buffer"]
+  }
+}

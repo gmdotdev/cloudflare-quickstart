@@ -1,0 +1,12 @@
+{
+  "name": "@gm/api",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts --compatibility-flags='nodejs_compat'"
+  },
+  "dependencies": {
+    "@packages/core": "workspace:*",
+    "hono": "^4.2.1"
+  }
+}
